@@ -1,0 +1,14 @@
+.company{
+    margin-top: 128px;
+    &__content{
+    }
+    
+    &__block{
+        margin: 0 auto;
+        max-width: 1056px;
+        gap: 39px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

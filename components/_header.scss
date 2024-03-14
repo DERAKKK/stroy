@@ -1,0 +1,78 @@
+.header {
+    &__logo {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        span {
+            color: #212B31;
+            font-size: 22px;
+
+            @media screen and (max-width: 1200px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 31px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #72787d;
+            transition: 0.3s;
+
+            @media screen and (max-width: 1200px) {
+                font-size: 12px;
+            }
+
+            &:hover {
+                color: #036fc7;
+            }
+        }
+
+        button {
+            border-radius: 4px;
+            border: 1px solid #212b31;
+            background: #212b31;
+            padding: 9px 20px;
+            color: #FFF;
+            font-size: 15px;
+
+            @media screen and (max-width: 1150px) {
+                font-size: 13px;
+            }
+        }
+    }
+
+    &__menu {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+
+        .line {
+            background: #000;
+            height: 3px;
+            width: 30px;
+        }
+
+        @media screen and (max-width: 1000px) {
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+.footer{
+    &__content{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto; 
+    }
+
+    &__top{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 160px;
+
+        @media screen and (max-width: 1040px) {
+            gap: 50px;
+        }
+    }
+
+    &__base{
+        display: flex;
+        flex-wrap: wrap;
+        width: 221px;
+
+        @media screen and (max-width: 920px) {
+            justify-content: center;
+            text-align: center;
+            margin: 0 auto; 
+        }
+    }
+
+    &__text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;    
+        color: #72787D;   
+    }
+
+    &__logo{
+        display: flex;
+        h2{
+            margin: 7px 0px 0px 8px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            color: #212B31;
+        }
+    }
+
+    &__apeks{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 160px;
+
+        @media screen and (max-width: 920px) {
+            justify-content: center;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: 650px) {
+            gap: 100px;
+        }
+    }
+    
+    &__menu{
+        width: 104px;
+        h2{
+            color: #212B31;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;    
+            margin: 0px 0px 22px 0px;                  
+        }
+
+        p{
+            color: #72787D;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;                      
+        }
+    }
+
+    &__line{
+        margin-top: 160px;
+        img{
+            max-width: 100%;
+        }
+    }
+
+    &__polit{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            color: #72787D;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.delivery{
+    &__content{
+        display: flex;
+        justify-content: center;
+        margin-top: 168px;
+        flex-wrap: wrap;
+    }
+    &__block{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__text{
+        max-width: 542px;
+    }
+
+    &__h1{
+
+        color: #212B31;
+        font-size: 32px;
+        font-style: normal;
+        line-height: normal;
+    }
+    &__p{
+
+        color: #72787D;
+        font-size: 20px;
+        font-style: normal;
+    }
+    &__pro{
+        width: 250px;
+        background: rgb(255,208,66);
+        background: linear-gradient(0deg, rgba(255,208,66,1) 50%, rgba(255,255,255,1) 50%);
+        color: #212B31;
+        font-size: 20px;
+        font-style: normal;
+    }
+    &__img{
+        img{
+            max-width: 100%;
+        }
+    }
+}

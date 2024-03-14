@@ -1,0 +1,73 @@
+.hero__text{
+    text-align: center;
+
+}
+
+.hero__h1{
+    color: #212B31;
+    text-align: center;
+    line-height: normal;
+    font-size: 48px;
+    font-weight: 400;
+    @media screen and (max-width: 1150px) {
+        font-size: 35px;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 25px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 17px;
+    }
+}
+
+
+
+.zakaz{
+    border-radius: 4px;
+    border: 1px solid #DADEDF;
+    background: #FFF;
+    padding: 13px 25px;
+
+    &:hover{
+        border-radius: 4px;
+        padding: 13px 25px;
+        color: #DADEDF;
+        border: 1px solid #212B31;
+        background: #212B31;
+        box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16);
+    }
+
+}
+
+.appdata{
+    border-radius: 4px;
+    border: 1px solid #DADEDF;
+    background: #FFF;
+    padding: 13px 25px;
+
+    &:hover{
+        border-radius: 4px;
+        padding: 13px 25px;
+        color: #DADEDF;
+        border: 1px solid #212B31;
+        background: #212B31;
+        box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16);
+    }
+
+}
+
+
+.hero {
+    text-align: center;
+    &__city {
+        img {
+            max-width: 100%;
+        }
+    }
+    &__track {
+        img {
+            max-width: 100%;
+            
+        }
+    }
+}

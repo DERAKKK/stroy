@@ -1,0 +1,29 @@
+
+.features__blocks{
+    margin-top: 148px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.features__block{
+    text-align: center;
+    max-width: 340px;
+}
+
+.block__text{
+    h1{
+        color: #212B31;
+        font-size: 18px; 
+        font-weight: 400;
+    }
+
+    p{
+        color: #72787D;
+        font-size: 16px;
+    
+    }
+}
+
